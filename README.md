@@ -4,5 +4,6 @@
 - To dockerize flagr tool which is a opensource tool for A-B Testing
 
 ### More Information
- - [Follow official documentation](https://openflagr.github.io/flagr/#/)
- - [Follow official github](https://github.com/openflagr/flagr)
+ - [Follow official Documentation](https://openflagr.github.io/flagr/#/)
+ - [Follow official Github](https://github.com/openflagr/flagr)
+ - [Follow official API doc](https://openflagr.github.io/flagr/api_docs/)
