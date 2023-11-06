@@ -1,7 +1,7 @@
 # Dockerize Flagr
 
 ## Purpose
-- To dockerize flagr tool which is a opensource tool for A-B Testing
+- To dockerize flagr which is a opensource tool for A-B Testing
 
 ### More Information
  - [Follow official Documentation](https://openflagr.github.io/flagr/#/)
