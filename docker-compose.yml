@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  openflagr:
+    image: openflagr:${OPENFLAGR_IMAGE_TAG}
+    build:
+      context: ${DOCKER_BUILD_CONTEXT_DIR}
+      dockerfile: ./Dockerfile
+    ports:
+      - ${OPENFLAGR_PUBLISH_PORT}:18000
+    restart: unless-stopped
+    env_file:
+      - ./openflagr.env
+    volumes:
+      - ./data:/data
